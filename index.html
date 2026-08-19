@@ -521,7 +521,11 @@ p{margin:0}
   .mapa{height:250px}
 }
 
-.form-card{background:rgba(243,232,230,.05);border:1px solid var(--line-dark);padding:clamp(28px,3.4vw,44px);backdrop-filter:blur(6px)}
+.form-card{
+  background:rgba(243,232,230,.05);border:1px solid var(--line-dark);
+  padding:clamp(28px,3.4vw,44px);backdrop-filter:blur(6px);
+  align-self:start;   /* não estica para acompanhar a coluna do mapa */
+}
 .form-card h3{font-size:1.42rem;color:var(--white);margin-bottom:10px}
 .form-card > p{font-size:.9rem;color:rgba(243,232,230,.68);margin-bottom:30px;line-height:1.6}
 .fields{display:grid;gap:18px}
